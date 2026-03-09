@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-flomo",
+  "version": "1.1.0",
+  "description": "Obsidian plugin to send content to Flomo",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4",
+    "esbuild": "0.17.3"
+  }
+}
